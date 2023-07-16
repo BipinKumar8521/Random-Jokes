@@ -37,3 +37,15 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#copy {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.fade {
+  opacity: 1;
+}
