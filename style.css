@@ -1,0 +1,39 @@
+body {
+  min-height: 90vh;
+  min-width: 50vw;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  width: 50%;
+  min-height: 40vh;
+  height: fit-content;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.container h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.container p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+button {
+  position: absolute;
+  bottom: 20px;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
